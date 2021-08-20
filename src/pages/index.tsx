@@ -1,11 +1,7 @@
-type HomeProps = {
-  title: string;
-};
+import Main from 'components/Main';
 
-function Home(props: HomeProps) {
-  const { title = 'React Avançado' } = props;
-
-  return <h1>{title}</h1>;
+function Home() {
+  return <Main />;
 }
 
 export default Home;
